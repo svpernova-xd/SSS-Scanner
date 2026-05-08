@@ -47,7 +47,6 @@ Designed for:
 | ➕ **Custom ports** | Add ports inline or via file — supports ranges and labels |
 | 💾 **Auto-save results** | Timestamped `.txt` report generated after every scan |
 | ⚡ **Concurrent scanning** | ThreadPoolExecutor with configurable CPS and thread cap |
-| 🛑 **Graceful interrupt** | `Ctrl+C` finishes current tasks cleanly; second press force-quits |
 
 ---
 
@@ -110,7 +109,7 @@ The installer will:
 ### Manual install (without installer)
 
 ```bash
-git clone https://github.com/svpernova/sss-scanner
+git clone https://github.com/svpernova-xd/SSS-Scanner
 cd sss-scanner
 chmod +x sss-scanner.py
 python3 sss-scanner.py hosts.txt
